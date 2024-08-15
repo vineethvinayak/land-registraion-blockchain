@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land Registration Portal</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="../css/login-form.css">
+    <link rel="stylesheet" href="../css/demo.css">
+    <script type="text/javascript" src="../app.js"></script>
+  </head>
+  <body>
+    <div class="side-bar">
+      <div class="menu">
+        <div class="item"><a href="#"><i class="fas fa-desktop"></i>Dashboard</a></div>
+        <div class="item">
+          <a href="register.html" class="sub-btn"><i class="fas fa-table"></i>Register<i class="fas fa-angle-right dropdown"></i></a>
+          <div class="sub-menu">
+            <a href="register.html" class="sub-item" onclick="register_fun()"> Users</a>
+            <a href="register.html" class="sub-item" onclick="register_fun_assest()">Assets</a>
+          </div>
+        </div>
+        <div class="item"><a href="search.html" ><i class="fas fa-th"></i>Search</a></div>
+		    <div class="item"><a href="Mutation.html"><i class="fa fa-clipboard"></i>Exchange</a></div>
+        <div class="item"><a href="datasheet.html"><i class="fa fa-database"></i>Records</a></div>
+		    <div class="item"><a href="Khatiyan.html"><i class="fa fa-database"></i>Vendor list</a></div>
+        <div class="item">
+          <a class="sub-btn" href="setting.html"><i class="fas fa-cogs"></i>Settings<i class="fas fa-angle-right dropdown"></i></a>
+        </div>
+      </div>
+    </div>
+    <section class="main">
+      <div id="main_page">
+        <section class="cm-login">
+          <p id="demo"> Welcome To Land Registration Portal</p>
+       </section>
+      </div>
+    </section>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  </body>
+</html>
