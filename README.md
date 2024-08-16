@@ -21,14 +21,14 @@ backend:
 # steps to run
 
 # preview
-frontend
+frontend:
 * land registration port home page![image](https://github.com/user-attachments/assets/c286e64e-9cce-4822-8866-64db05c1a552)
 * registration page ![image](https://github.com/user-attachments/assets/0e7ab102-2741-426e-9226-d27eef41ff37)
 * assets page ![image](https://github.com/user-attachments/assets/38d83cf2-c875-495c-8109-fb1efae3d747)
 * search tab ![image](https://github.com/user-attachments/assets/bf8d7cc2-9e7d-48a1-a5bf-dd88174544af)
 * property exchange page ![image](https://github.com/user-attachments/assets/ad9c35d9-8d44-4baa-9e68-fc155efe8663)
 * land records page ![image](https://github.com/user-attachments/assets/6af32455-f87e-4113-9a52-6b09ef390c4a)
-backend
+backend:
 * ganache
   genesis block: ![image](https://github.com/user-attachments/assets/47d551f3-8bbb-413b-8b81-cb2897a9a70d)
   registration block: ![image](https://github.com/user-attachments/assets/dadcc9df-d2f8-4e41-868e-97a982823e55)
