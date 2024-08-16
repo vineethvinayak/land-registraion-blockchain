@@ -26,7 +26,7 @@ backend:
 * open terminal and cd to the folder with package.json and run truffle migrate
 * if it doesn't work use truffle compile then truffle migrate
 * open the cloned folder on vscode, install php extension and get it live
-* run app.js
+* run the rpc sever of the truffle suite found in the ganache on your browser 
 
 # preview
 frontend:
