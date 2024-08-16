@@ -18,6 +18,7 @@ frontend:
 backend:
 * eth blockchain[truffle]
 * solidity[smart contracts]
+* php
 # steps to run
 
 # preview
