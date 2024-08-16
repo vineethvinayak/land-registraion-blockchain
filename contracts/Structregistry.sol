@@ -1,7 +1,7 @@
 pragma experimental ABIEncoderV2;
 pragma solidity >=0.4.22 <0.8.0;
 
-// Creating a Smart Contract
+// Creating a new Smart Contract
 contract Structregistry {
 
   struct users {
