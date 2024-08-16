@@ -20,6 +20,13 @@ backend:
 * solidity[smart contracts]
 * php
 # steps to run
+* clone the GitHub repository to the folder
+* open ganache and create a new contract, to create a new contract use the network id and modify the truffle-config.js network id, give the modified truffle-config.js file to the workspace and restart ganache, check for the genesis block creation
+* keep ganache running in the background
+* open terminal and cd to the folder with package.json and run truffle migrate
+* if it doesn't work use truffle compile then truffle migrate
+* open the cloned folder on vscode, install php extension and get it live
+* run app.js
 
 # preview
 frontend:
